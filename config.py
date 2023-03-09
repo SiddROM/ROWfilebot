@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "26019444"))
 API_HASH = os.environ.get("API_HASH", "a308fac723905cdbd836414b18f3b3d6")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "900990505"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "1001238478142"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6023910356"))
@@ -32,7 +32,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://naise:<naise>@cluster0.th
 DB_NAME = os.environ.get("DATABASE_NAME", "cluster0")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "1646949003"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001646949003"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
